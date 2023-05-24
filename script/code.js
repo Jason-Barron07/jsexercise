@@ -25,4 +25,33 @@
 
 // 8.Define hoisting and variable scoping
 // Hoisting is the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code.
-// JavaScript variables have only two scopes. Global Variables: A global variable has global scope which means it can be defined anywhere in your JavaScript code. Local Variables : A local variable will be visible only within a function where it is defined. 
+// JavaScript variables have only two scopes. Global Variables: A global variable has global scope which means it can be defined anywhere in your JavaScript code. Local Variables : A local variable will be visible only within a function where it is defined.
+
+let fullname = 'Jason Barron'
+
+console.log(fullname)
+
+
+let firstName = {name:'Jason'};
+let lastName = {lastname:'Barron'}; 
+let age = {age:19}
+let list_of_subjects = ['Math ,English, Afrikaans,CAT']
+
+let details = [firstName,lastName,age,list_of_subjects]
+
+console.log(details)
+
+let address ={
+
+    streetname:'Mars Way',
+    streetnumber:'28',
+    suburb:'Bishop Lavis',
+    city:'Cape Town',
+    country:'South Africa',
+
+
+}
+
+
+console.log(address)
+
