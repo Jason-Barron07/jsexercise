@@ -1,0 +1,39 @@
+*{
+    margin:2;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color:blueviolet;
+
+}
+
+.conatiner{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+ input{
+
+    padding:5px;
+    margin-top: 15px;
+    padding-left:204px;
+
+}
+
+
+
+
+button{
+
+   align-items: center;
+    
+}
+
