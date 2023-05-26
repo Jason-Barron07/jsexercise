@@ -53,5 +53,44 @@ let address ={
 }
 
 
-console.log(address)
+console.log(address);
+
+
+//function for displaying, help by imtiyaaz
+
+
+
+function calculate() {
+    let number1 = parseInt(document.getElementById("number1").value);
+    let number2 = parseInt(document.getElementById("number2").value);
+    let operator = document.getElementById("operator").value;
+
+    
+
+    let result;
+
+  
+    switch (operator) {
+        case "+":
+            result = number1 + number2;
+            break;
+        case "-":
+            result = number1 - number2;
+            break;
+        case "*":
+            result = number1 * number2;
+            break;
+        case "**":
+            result = number1**number2;
+            break;
+        case "/":
+            result = number1 / number2
+            break;
+        default:
+            result = "Invalid operator chosen, Please select the available operators";
+    }
+
+    document.getElementById("result").textContent = "Result: " + result;
+}
+
 
