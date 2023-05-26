@@ -86,8 +86,6 @@ function calculate() {
         case "/":
             result = number1 / number2
             break;
-        default:
-            result = "Invalid operator chosen, Please select the available operators";
     }
 
     document.getElementById("result").textContent = "Result: " + result;
