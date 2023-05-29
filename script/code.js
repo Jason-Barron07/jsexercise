@@ -92,3 +92,7 @@ function calculate() {
 }
 
 
+let subject = 'programming';
+
+console.log(subject[10],subject[9],subject[8],subject[7],subject[6],subject[5],subject[4],subject[3],subject[2],subject[1],subject[0])
+
